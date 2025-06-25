@@ -25,10 +25,6 @@ jobs:
           node-version: '18'
           cache: 'npm'
 
-      - name: Copy HTML files for build
-        run: |
-          cp src/*.html ./
-
       - name: Install and build 🔧
         run: |
           npm install
